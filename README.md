@@ -77,18 +77,18 @@ docker images
 
 📜 **결과 예시**  
 ```
-REPOSITORY                           TAG       IMAGE ID       CREATED             SIZE
-<YOUR-USERNAME>/springboottest       4.0       7472b57f1985   18 minutes ago      205MB
-<YOUR-USERNAME>/springboottest       3.0       3263a10fa5ec   19 minutes ago      288MB
-<YOUR-USERNAME>/springboottest       2.0       578cca89ef8b   22 minutes ago      433MB
-<YOUR-USERNAME>/springboottest       1.0       bf0036a0ea3b   25 minutes ago      496MB
+REPOSITORY           TAG       IMAGE ID       CREATED             SIZE
+springboottest       4.0       7472b57f1985   18 minutes ago      205MB
+springboottest       3.0       3263a10fa5ec   19 minutes ago      288MB
+springboottest       2.0       578cca89ef8b   22 minutes ago      433MB
+springboottest       1.0       bf0036a0ea3b   25 minutes ago      496MB
 ```
 <br>
 위 사이즈의 크기 차이는 최적화 유무로 인해 나타난 것으로, 어떤 jdk 혹은 jre가 탑재된 이미지를 사용했느냐에 따라 달라진다.<br><br>
 
 |Tag|Image|
 |---|-----|
-|4.0|eclipse-temurin:17-alpine-jre|
+|4.0|eclipse-temurin:17-jre-alpine|
 |3.0|eclipse-temurin:17-jre|
 |2.0|openjdk:17-slim|
 |1.0|openjdk:17|
