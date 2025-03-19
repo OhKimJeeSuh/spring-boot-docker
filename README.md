@@ -174,5 +174,5 @@ Tomcat initialized with port <portnumber> (http)
 
 2. **Docker 실행 시 포트 매핑 변경**  
    ```bash
-   docker run -p 8080:<portnumber> <YOUR-USERNAME>/springboottest:1.0
+   docker run -p <ubuntu_portnumber>:<docker_container_portnumber> <YOUR-USERNAME>/springboottest:1.0
    ```
