@@ -143,7 +143,7 @@ Status: Downloaded newer image for YOUR-USERNAME/springboottest:1.0
 ## ▶️ 컨테이너 실행  
 
 ```bash
-docker run -p 8080:8080 <YOUR-USERNAME>/springboottest:1.0
+docker run --name <YOUR-CONTAINER-NAME> -p 8080:8080 <YOUR-USERNAME>/springboottest:1.0
 ```
 
 이 명령어는 호스트의 `8080` 포트를 컨테이너의 `8080` 포트에 매핑합니다.  
